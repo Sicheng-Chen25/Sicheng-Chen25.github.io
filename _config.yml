@@ -1,0 +1,37 @@
+title: "陈思丞 · Sicheng Chen"
+description: "陈思丞的中英双语学术主页 · Bilingual academic homepage of Sicheng Chen"
+url: "https://sicheng-chen25.github.io"
+baseurl: ""
+locale: "zh-CN"
+repository: "Sicheng-Chen25/Sicheng-Chen25.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+author:
+  name: "陈思丞 · Sicheng Chen"
+  avatar: "/assets/images/portrait.webp"
+  bio: "清华大学机械工程系 · Mechanical Engineering, Tsinghua University"
+  email: "csc25@mails.tsinghua.edu.cn"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Sicheng-Chen25"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+      classes: "wide"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
