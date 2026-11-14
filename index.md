@@ -13,20 +13,26 @@ excerpt: "清华大学机械工程系本科生，研究兴趣包括具身智能�
 
 **清华大学学术研究推进计划 · 2026 年 4 月起**
 
+参与基于 Franka Panda 的双臂遥操作与避障系统开发，在仿真和实机上开展实验。负责腕部相机和三维感知模块，目前正在独立开发基于 cuRobo v2 的模型预测控制（MPC）。
+
 <div class="project-images">
   <figure>
-    <img src="{{ '/assets/images/dual-arm.webp' | relative_url }}" width="1200" height="734" alt="MuJoCo 场景中的两台 Franka Panda 机械臂">
-    <figcaption>MuJoCo 双臂仿真</figcaption>
+    <img src="{{ '/assets/images/camera-mount.webp' | relative_url }}" alt="Franka Panda 腕部相机夹具的 CAD 模型" loading="lazy">
+    <figcaption><strong>相机夹具 CAD 设计</strong><span>设计并制作 Franka Panda 腕部相机夹具。</span></figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/images/camera-mount.webp' | relative_url }}" width="1200" height="721" alt="Franka Panda 腕部相机夹具的 CAD 模型">
-    <figcaption>腕部相机夹具设计</figcaption>
+    <img src="{{ '/assets/images/camera-integration.webp' | relative_url }}" alt="仿真环境中配备腕部相机的双臂机器人模型" loading="lazy">
+    <figcaption><strong>相机模型装配与位姿校准</strong><span>将腕部相机装入仿真模型，配置并核对相机位姿。</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/rviz-point-cloud.webp' | relative_url }}" alt="RViz 显示机械臂及相机获取的三维点云" loading="lazy">
+    <figcaption><strong>深度图与 RViz 点云可视化</strong><span>从 MuJoCo 获取深度图，经 ROS 2 生成点云，并在 RViz 中查看。</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/curobo-coordinated-grasp.webp' | relative_url }}" alt="cuRobo v2 仿真中的双臂协同抓取场景" loading="lazy">
+    <figcaption><strong>cuRobo v2 双臂协同抓取</strong><span>在仿真中实现双臂协同抓取，继续探索面向避障的 MPC。</span></figcaption>
   </figure>
 </div>
-
-- 参与双臂协同操作与避障控制系统开发，基于 Franka Panda 平台开展仿真与实机实验。
-- 负责视觉感知模块搭建，设计并制作腕部相机安装结构，在 MuJoCo 中配置相机模型和位姿，实现仿真环境中的三维点云采集与障碍物感知。
-- 目前正在独立开发基于 CuRobo 库的 MPC。
 
 ### 可收集水面垃圾的遥控船
 
