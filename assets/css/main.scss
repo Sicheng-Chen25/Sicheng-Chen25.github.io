@@ -55,7 +55,7 @@ $footer-background-color: #f0e5f3;
 
 .page__content {
   max-width: 49rem;
-  font-size: clamp(1.0625rem, 1rem + .2vw, 1.1875rem);
+  font-size: clamp(1.0625rem, calc(1rem + .2vw), 1.1875rem);
   line-height: 1.65;
 
   h2 {
