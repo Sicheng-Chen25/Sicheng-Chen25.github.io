@@ -13,20 +13,26 @@ HI!I’m Chen Sicheng , an undergraduate in the Department of Mechanical Enginee
 
 **Tsinghua undergraduate research program · Since April 2026**
 
+I contribute to a Franka Panda system for dual-arm teleoperation and collision avoidance, with experiments in simulation and on hardware. I built the wrist camera and 3D perception pipeline and am independently developing a model predictive controller (MPC) using cuRobo v2.
+
 <div class="project-images">
   <figure>
-    <img src="{{ '/assets/images/dual-arm.webp' | relative_url }}" width="1200" height="734" alt="Two Franka Panda robot arms in a MuJoCo scene">
-    <figcaption>Dual-arm MuJoCo simulation</figcaption>
+    <img src="{{ '/assets/images/camera-mount.webp' | relative_url }}" alt="CAD model of a wrist camera mount for the Franka Panda" loading="lazy">
+    <figcaption><strong>Camera mount design</strong><span>Designed and fabricated a wrist camera mount for the Franka Panda.</span></figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/images/camera-mount.webp' | relative_url }}" width="1200" height="721" alt="CAD model of a wrist camera mount for the Franka Panda">
-    <figcaption>Wrist camera mount</figcaption>
+    <img src="{{ '/assets/images/camera-integration.webp' | relative_url }}" alt="Simulated dual-arm robot model with wrist cameras" loading="lazy">
+    <figcaption><strong>Camera integration and pose calibration</strong><span>Integrated the wrist cameras into the simulation model and checked their poses.</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/rviz-point-cloud.webp' | relative_url }}" alt="Robot arms and a depth-derived point cloud displayed in RViz" loading="lazy">
+    <figcaption><strong>Depth images and point clouds</strong><span>Converted MuJoCo depth images to point clouds with ROS 2 and visualized them in RViz.</span></figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/curobo-coordinated-grasp.webp' | relative_url }}" alt="Coordinated dual-arm grasping scene in cuRobo v2 simulation" loading="lazy">
+    <figcaption><strong>Coordinated grasping with cuRobo v2</strong><span>Implemented coordinated grasping in simulation and am developing MPC for collision avoidance.</span></figcaption>
   </figure>
 </div>
-
-- Contributed to a system for coordinated dual-arm manipulation and collision avoidance, and ran experiments in simulation and on Franka Panda hardware.
-- Built the vision pipeline. Designed and fabricated a wrist camera mount, integrated the camera model and pose in MuJoCo, and enabled 3D point cloud acquisition and obstacle perception in simulation.
-- I’m currently developing a model predictive controller (MPC) independently using the CuRobo library.
 
 ### Remote-controlled trash collection boat
 
