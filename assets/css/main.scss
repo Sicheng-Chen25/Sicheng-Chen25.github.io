@@ -1,0 +1,57 @@
+---
+search: false
+---
+
+@charset "utf-8";
+
+$background-color: #faf7fb;
+$text-color: #261c2a;
+$muted-text-color: #605268;
+$primary-color: #660874;
+$link-color: #660874;
+$link-color-hover: #4b0657;
+$border-color: #e5dbe9;
+$masthead-link-color: #660874;
+$masthead-link-color-hover: #4b0657;
+$footer-background-color: #f0e5f3;
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+.page__title,
+.page__title a {
+  color: $primary-color;
+}
+
+.project-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.project-images figure {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid $border-color;
+  border-radius: 0.5rem;
+}
+
+.project-images img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  margin: 0;
+}
+
+.project-images figcaption {
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  background: $footer-background-color;
+}
+
+@media (max-width: 36em) {
+  .project-images { grid-template-columns: minmax(0, 1fr); }
+}
