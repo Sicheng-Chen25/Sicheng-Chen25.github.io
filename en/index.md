@@ -5,7 +5,7 @@ locale: en-US
 excerpt: "Tsinghua undergraduate interested in embodied AI, robotic manipulation, and coordinated dual-arm control."
 ---
 
-I’m an undergraduate in the Department of Mechanical Engineering at Tsinghua University. I major in Intelligent Manufacturing and Equipment with a focus on robotics. My research interests include embodied AI, robotic manipulation, coordinated dual-arm control, motion planning and optimal control, and robot perception.
+HI!I’m Chen Sicheng , an undergraduate in the Department of Mechanical Engineering at Tsinghua University , major in Intelligent Manufacturing and Equipment with a focus on robotics. My research interests include embodied AI, robotic manipulation, coordinated dual-arm control, motion planning and optimal control, and robot perception.
 
 ## Research and projects
 
