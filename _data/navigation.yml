@@ -1,0 +1,5 @@
+main:
+  - title: "中文"
+    url: /
+  - title: "English"
+    url: /en/
