@@ -1,58 +1,58 @@
 ---
-title: "陈思丞"
-permalink: /
-locale: zh-CN
-excerpt: "清华大学机械工程系本科生，研究兴趣包括具身智能、机器人操作和双臂协同控制。"
+title: "Sicheng Chen"
+permalink: /en/
+locale: en-US
+excerpt: "Tsinghua undergraduate interested in embodied AI, robotic manipulation, and coordinated dual-arm control."
 ---
 
-我是清华大学机械工程系本科生，专业为智能制造与装备（智能制造与机器人方向）。我的研究兴趣包括具身智能、机器人操作、双臂机器人协同控制、运动规划与优化控制，以及机器人感知。
+I’m an undergraduate in the Department of Mechanical Engineering at Tsinghua University. I major in Intelligent Manufacturing and Equipment with a focus on robotics. My research interests include embodied AI, robotic manipulation, coordinated dual-arm control, motion planning and optimal control, and robot perception.
 
-## 科研与项目
+## Research and projects
 
-### 双臂机器人遥操作与避障控制
+### Dual-arm teleoperation and collision avoidance
 
-**清华大学学术研究推进计划 · 2026 年 4 月起**
+**Tsinghua undergraduate research program · Since April 2026**
 
 <div class="project-images">
   <figure>
-    <img src="{{ '/assets/images/dual-arm.webp' | relative_url }}" width="1200" height="734" alt="MuJoCo 场景中的两台 Franka Panda 机械臂">
-    <figcaption>MuJoCo 双臂仿真</figcaption>
+    <img src="{{ '/assets/images/dual-arm.webp' | relative_url }}" width="1200" height="734" alt="Two Franka Panda robot arms in a MuJoCo scene">
+    <figcaption>Dual-arm MuJoCo simulation</figcaption>
   </figure>
   <figure>
-    <img src="{{ '/assets/images/camera-mount.webp' | relative_url }}" width="1200" height="721" alt="Franka Panda 腕部相机夹具的 CAD 模型">
-    <figcaption>腕部相机夹具设计</figcaption>
+    <img src="{{ '/assets/images/camera-mount.webp' | relative_url }}" width="1200" height="721" alt="CAD model of a wrist camera mount for the Franka Panda">
+    <figcaption>Wrist camera mount</figcaption>
   </figure>
 </div>
 
-- 参与双臂协同操作与避障控制系统开发，基于 Franka Panda 平台开展仿真与实机实验。
-- 负责视觉感知模块搭建，设计并制作腕部相机安装结构，在 MuJoCo 中配置相机模型和位姿，实现仿真环境中的三维点云采集与障碍物感知。
-- 目前正在独立开发基于 CuRobo 库的 MPC。
+- Contributed to a system for coordinated dual-arm manipulation and collision avoidance, and ran experiments in simulation and on Franka Panda hardware.
+- Built the vision pipeline. Designed and fabricated a wrist camera mount, integrated the camera model and pose in MuJoCo, and enabled 3D point cloud acquisition and obstacle perception in simulation.
+- I’m currently developing a model predictive controller (MPC) independently using the CuRobo library.
 
-### 可收集水面垃圾的遥控船
+### Remote-controlled trash collection boat
 
-**清华大学机械工程系新生机械创意大赛 · 2026 年 1–4 月**
+**Tsinghua Mechanical Engineering first-year design competition · January–April 2026**
 
-负责 Arduino 嵌入式开发，实现遥控船的水面垃圾收集功能。
+Developed the Arduino embedded system for a remote-controlled boat that collects floating waste.
 
-## 学习及获奖情况
+## Education and honors
 
-**清华大学机械工程系** · 智能制造与装备本科，智能制造与机器人方向
+**Tsinghua University, Department of Mechanical Engineering** · Undergraduate in Intelligent Manufacturing and Equipment, with a focus on intelligent manufacturing and robotics
 
-- **核心课程**：线性代数（4.0）、计算机程序设计基础（4.0）、设计制造与表达认知（4.0）、机械设计基础、微积分 A、大学物理
-- **荣誉奖励**：2026 年度「清华之友-能科奖优金」；清华大学机械工程系大一上学期学习进步奖
+- **Core courses**: Linear Algebra (4.0), Fundamentals of Computer Programming (4.0), Design, Manufacturing and Representation (4.0), Fundamentals of Mechanical Design, Calculus A, and University Physics
+- **Honors**: Tsinghua Friends Nancal Merit Award (2026) and the department’s Academic Progress Award (first semester of my first year)
 
-## 专业技能
+## Technical skills
 
-- **编程与开发**：熟悉 C++、Python 编程和 Linux 开发环境，掌握 Git 版本管理工具。
-- **机器人系统与仿真**：熟悉 ROS 2，具备机器人系统开发与调试经验。有 MuJoCo 等仿真平台使用经验，熟悉机器人运动规划与控制仿真流程。
-- **机械设计与制造**：熟悉 SolidWorks、AutoCAD 等机械设计软件，具备机械结构设计、三维建模及加工制造经验。
+- **Programming and development**: C++ and Python programming on Linux, and Git for version control.
+- **Robotics and simulation**: Development and debugging with ROS 2, and robot motion planning and control in MuJoCo and other simulators.
+- **Mechanical design and manufacturing**: SolidWorks and AutoCAD, with experience in mechanical design, 3D modeling, and fabrication.
 
-## 校园与实践
+## Campus and fieldwork
 
-- 担任清华大学机械工程系学生会骨干、智造 51 班学习委员和体育委员、智造 62 班朋辈辅导员。
-- 作为机械工程系极限飞盘队成员，随队获 2026 年马约翰杯第一名。
-- 以外联组部长身份参加两次社会实践。2026 年寒假随「深拓智行」支队赴深圳调研，支队获机械工程系银牌支队。
+- Served on the departmental student union, represented Intelligent Manufacturing Class 51 on academic and sports matters, and mentored Class 62 peers.
+- Won first place in the 2026 Ma Yuehan Cup with the Mechanical Engineering ultimate frisbee team.
+- Led external relations for two fieldwork projects. Our winter 2026 Shenzhen team received a departmental silver award.
 
-## 联系方式
+## Contact
 
-学校邮箱 [{{ site.author.email }}](mailto:{{ site.author.email }})
+University email [{{ site.author.email }}](mailto:{{ site.author.email }})
